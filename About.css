@@ -1,0 +1,31 @@
+@font-face {
+  font-family: aboutFont;
+  src: url(Abel-Regular.ttf);
+}
+
+.about-font {
+  font-family: aboutFont;
+}
+
+@font-face {
+  font-family: say2cupsFont;
+  src: url("Rochester Twee.ttf");
+}
+
+.aboutpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.daftphoto {
+  height: 450px;
+}
+
+.about-text {
+  color: white;
+}
+
+.say2cups-font {
+  font-family: say2cupsFont;
+}

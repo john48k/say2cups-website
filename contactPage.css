@@ -1,0 +1,28 @@
+@font-face {
+  font-family: contactFont;
+  src: url(Abel-Regular.ttf);
+}
+
+.contact-font {
+  font-family: contactFont;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+  align-items: center;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.button {
+  width: 8rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background-color: rgb(136, 0, 255);
+  color: rgb(255, 255, 255);
+}

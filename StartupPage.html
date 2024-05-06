@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body style="background-color: rgb(0, 0, 0)"></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StartupPage.css" />
+    <title>StartupPage ⌖</title>
+  </head>
+  <body>
+    <div class="container animate-flicker">
+      <h1 class="enter green font flicker button" onclick="onEnterClick()">
+        Press Enter
+      </h1>
+    </div>
+    <script type="text/javascript">
+      const audio = new Audio();
+      audio.src = "./Plugg (EQ).wav";
+
+      function onEnterClick() {
+        audio.play();
+        setTimeout(() => {
+          location.href = "http://127.0.0.1:5500/HomePage.html";
+        }, 0);
+      }
+    </script>
+  </body>
+</html>

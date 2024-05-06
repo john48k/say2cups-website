@@ -1,0 +1,95 @@
+@font-face {
+  font-family: myFont;
+  src: url("Rochester Twee.ttf");
+}
+
+.green {
+  color: rgb(0, 221, 18);
+}
+
+/* .say2cups-title {
+  font-family: myFont;
+  font-size: 10rem;
+  margin: 0;
+} */
+
+.container {
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter {
+  font-size: 9rem;
+}
+
+.font {
+  font-family: myFont;
+}
+
+@keyframes blink {
+  67% {
+    opacity: 0;
+  }
+}
+
+/* .flicker {
+  animation: 1link 0.1s linear infinite;
+} */
+
+.button {
+  cursor: pointer;
+}
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate-flicker {
+  -webkit-animation: flickerAnimation 1.5s infinite;
+  -moz-animation: flickerAnimation 2.5s infinite;
+  -o-animation: flickerAnimation 9.5s infinite;
+  animation: flickerAnimation 3.8s infinite;
+}
