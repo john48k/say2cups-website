@@ -1,0 +1,35 @@
+.text_flick {
+  animation: flick 0.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.text_flick_faster {
+  animation: flick_fast 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flick {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 86%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes flick_fast {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 82%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
