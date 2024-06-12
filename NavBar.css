@@ -4,7 +4,7 @@
   src: url("Fonts/Rochester Twee.ttf");
 }
 
-@font-face {
+<<<<<<< HEAD @font-face {
   font-family: navFont;
   src: url(/Fonts/OldLondon.ttf);
 }
@@ -15,7 +15,7 @@
   src: url(Fonts/Abel-Regular.ttf);
 }
 
-.font {
+=======>>>>>>>parent of 480594b (change nav font) .font {
   font-family: myFont;
 }
 
@@ -54,7 +54,6 @@ nav {
   padding-top: 40px;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: navFont;
 }
 
 .logo {
@@ -71,8 +70,7 @@ nav ul li a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-  /* font-weight: bold; */
-  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .cursor {
