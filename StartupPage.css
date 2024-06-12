@@ -1,6 +1,7 @@
 @font-face {
   font-family: myFont;
-  src: url("Rochester Twee.ttf");
+  /* src: url("Rochester Twee.ttf"); */
+  src: url("Fonts/Rochester Twee.ttf");
 }
 
 .green {
