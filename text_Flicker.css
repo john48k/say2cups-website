@@ -1,5 +1,5 @@
 .text_flick {
-  animation: flick 0.4s;
+  animation: flick 0.3s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
@@ -15,7 +15,7 @@
     opacity: 100%;
   }
   50% {
-    opacity: 86%;
+    opacity: 94%;
   }
   100% {
     opacity: 100%;
@@ -28,6 +28,25 @@
   }
   50% {
     opacity: 92%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.text_photo {
+  animation-duration: 0.5s;
+  animation-name: photo;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photo {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 97%;
   }
   100% {
     opacity: 100%;
