@@ -9,6 +9,12 @@
   src: url(/Fonts/OldLondon.ttf);
 }
 
+@font-face {
+  font-family: aboutFont;
+  /* src: url(Abel-Regular.ttf); */
+  src: url(Fonts/Abel-Regular.ttf);
+}
+
 .font {
   font-family: myFont;
 }
@@ -23,8 +29,9 @@
   font-family: myFont;
 }
 .green-say2cups {
-  color: rgb(0, 221, 18);
+  color: rgb(14, 235, 33);
   text-decoration: none;
+  margin: 0;
 }
 
 .green {
@@ -51,7 +58,7 @@ nav {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 33px;
 }
 
 nav ul li {
