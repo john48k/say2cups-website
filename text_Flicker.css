@@ -1,5 +1,5 @@
 .text_flick {
-  animation: flick 0.3s;
+  animation: flick 0.2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
@@ -15,7 +15,7 @@
     opacity: 100%;
   }
   50% {
-    opacity: 94%;
+    opacity: 91%;
   }
   100% {
     opacity: 100%;
