@@ -40,7 +40,7 @@
 }
 
 .green-point:hover {
-  color: rgb(0, 221, 18);
+  color: rgb(0, 255, 0);
 }
 
 .navclass {
@@ -123,13 +123,17 @@ nav ul li a {
 }
 
 .dropdown li:hover a {
-  color: rgb(90, 255, 109);
+  color: rgb(0, 255, 21);
+
   text-decoration: none;
 }
 
 .Custom-Cursor {
   height: 100vh;
-  cursor: url("/Images/cursor-image_00000.png"), auto;
+  /* cursor: url("/Images/cursor-image_00000.png"), auto; */
+  cursor: url("Images/CursorMain.png"), auto;
+  /* cursor: url("Images/CursorEmoji.png"), auto; */
+
   /* animation: flick_cursor 0.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite; */
