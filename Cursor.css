@@ -1,8 +1,8 @@
-.CustomCursor {
+/* .Custom-Cursor   {
   height: 100vh;
   cursor: url("/Images/cursor-image_00000.png"), auto;
   /* animation: flicker 0.3s steps(3) infinite; */
-}
+} */
 
 /* @keyframes flicker {
   0% {

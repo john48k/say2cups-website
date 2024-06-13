@@ -35,7 +35,7 @@
 }
 
 .text_photo {
-  animation-duration: 0.5s;
+  animation-duration: 2s;
   animation-name: photo;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -46,7 +46,7 @@
     opacity: 100%;
   }
   50% {
-    opacity: 97%;
+    opacity: 99%;
   }
   100% {
     opacity: 100%;
