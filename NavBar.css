@@ -68,7 +68,8 @@ nav ul li a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-weight: 510;
 }
 
 /* .cursor {
