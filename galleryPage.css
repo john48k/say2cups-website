@@ -1,3 +1,23 @@
+@font-face {
+  font-family: aboutFont;
+  src: url(Fonts/Abel-Regular.ttf);
+}
+
+@font-face {
+  font-family: bit1;
+  src: url("/Fonts/easvhs.ttf");
+}
+
+@font-face {
+  font-family: bit2;
+  src: url("/Fonts/alagard.ttf");
+}
+
+@font-face {
+  font-family: gothText;
+  src: url(/Fonts/OldLondon.ttf);
+}
+
 @keyframes gallery-text-flicker {
   0% {
     opacity: 1;
@@ -8,6 +28,66 @@
   100% {
     opacity: 1;
   }
+}
+
+@keyframes pf1 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 89%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes pf2 {
+  0% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 89%;
+  }
+  40% {
+    opacity: 68%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes pf3 {
+  0% {
+    opacity: 100%;
+  }
+  44% {
+    opacity: 86%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.pText {
+  /* font-family: aboutFont;
+  font-family: say2cupsFont; */
+  font-family: bit1;
+  color: rgb(93, 255, 91);
+  font-size: 13px;
+  margin: 0;
+}
+
+#pf1 {
+  animation: pf1 0.2s ease-in-out infinite;
+}
+
+#pf2 {
+  animation: pf1 0.2s ease-in-out infinite;
+}
+
+#pf3 {
+  animation: pf1 0.2s ease-in-out infinite;
 }
 
 #header_text {
@@ -25,12 +105,22 @@
   padding: 0;
   cursor: default;
   width: 720px; /* Set a specific width for the gallery */
-  height: 500px;
   margin: 0 auto; /* Center the gallery */
+}
+
+.gallery > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(0, 21, 39); */
 }
 
 video {
   width: 100%; /* Ensure the video takes up the full width of its grid cell */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
+}
+
+.hover-cursor:hover {
+  color: red;
 }
