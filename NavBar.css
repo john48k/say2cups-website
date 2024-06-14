@@ -113,14 +113,72 @@ nav ul li a {
   color: rgb(0, 221, 18);
   text-decoration: none;
   padding: 10px 20px;
+  animation-name: f2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#f2 {
+  animation-name: f2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+#f3 {
+  animation-name: f3;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .dropdown li:hover a {
-  color: rgb(0, 255, 21);
+  color: rgb(255, 0, 0);
   text-decoration: none;
+  animation-name: f1;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .Custom-Cursor {
   height: 100vh;
   cursor: url("Images/Cursor/CursorMain.png"), auto;
+}
+
+@keyframes f1 {
+  0% {
+    opacity: 100%;
+    color: rgb(255, 0, 0);
+  }
+  0% {
+    opacity: 100%;
+    color: rgb(162, 0, 0);
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes f2 {
+  0% {
+    opacity: 100%;
+  }
+  0% {
+    opacity: 90%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes f3 {
+  0% {
+    opacity: 100%;
+  }
+  0% {
+    opacity: 86%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
