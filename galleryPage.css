@@ -1,0 +1,36 @@
+@keyframes gallery-text-flicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#header_text {
+  text-align: center;
+  color: rgb(34, 255, 49);
+  font-weight: lighter;
+  animation: gallery-text-flicker 0.2s ease-in-out infinite;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, auto); /* Two rows */
+  gap: 10px; /* No space between videos */
+  padding: 0;
+  cursor: default;
+  width: 720px; /* Set a specific width for the gallery */
+  height: 500px;
+  margin: 0 auto; /* Center the gallery */
+}
+
+video {
+  width: 100%; /* Ensure the video takes up the full width of its grid cell */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+}

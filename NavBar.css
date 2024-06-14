@@ -1,34 +1,32 @@
-/* * {
-  padding: 0;
-  margin: 0;
-} */
-
 @font-face {
   font-family: myFont;
-  /* src: url("Rochester Twee.ttf"); */
   src: url("Fonts/Rochester Twee.ttf");
 }
 
 @font-face {
   font-family: navFont;
-  src: url(/Fonts/OldLondon.ttf);
+  src: url("Fonts/OldLondon.ttf");
 }
 
 @font-face {
   font-family: aboutFont;
-  /* src: url(Abel-Regular.ttf); */
-  src: url(Fonts/Abel-Regular.ttf);
+  src: url("Fonts/Abel-Regular.ttf");
 }
 
 @font-face {
-  font-family: navFont;
-  /* src: url("OldLondon.ttf"); */
-  src: url("Fonts/OldLondon.ttf");
+  font-family: monster;
+  src: url("Fonts/MONSTERIZE.TTF");
+}
+
+#fontMonster {
+  font-family: monster;
+  color: red;
 }
 
 .fontnav {
   font-family: myFont;
 }
+
 .green-say2cups {
   color: rgb(14, 235, 33);
   text-decoration: none;
@@ -52,7 +50,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* justify-content: space-between; */
   padding-top: 40px;
   padding-left: 10%;
   padding-right: 10%;
@@ -74,20 +71,16 @@ nav ul li a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-  /* font-weight: bold; */
   font-weight: 510;
 }
-
-/* .cursor {
-  cursor: pointer;
-} */
 
 .link-remove {
   text-decoration: none;
 }
+
 .menu {
   list-style: none;
-  background-color: #000000; /* Background color for the dropdown */
+  background-color: #000000;
   display: inline-block;
   position: relative;
   padding: 0px;
@@ -98,18 +91,18 @@ nav ul li a {
 }
 
 .menu li:hover .dropdown {
-  display: block; /* Show dropdown on hover */
+  display: block;
 }
 
 .dropdown {
-  display: none; /* Hide dropdown by default */
+  display: none;
   position: absolute;
-  top: 100%; /* Position the dropdown directly below the menu item */
-  left: 0; /* Align dropdown with the left edge of the parent */
+  top: 100%;
+  left: 0;
   background-color: #000000;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  width: max-content; /* Adjust the width based on content */
+  width: max-content;
 }
 
 .dropdown li {
@@ -119,35 +112,15 @@ nav ul li a {
 .dropdown li a {
   color: rgb(0, 221, 18);
   text-decoration: none;
-  padding: 10px 20px; /* Add padding for better alignment */
+  padding: 10px 20px;
 }
 
 .dropdown li:hover a {
   color: rgb(0, 255, 21);
-
   text-decoration: none;
 }
 
 .Custom-Cursor {
   height: 100vh;
-  /* cursor: url("Images/Cursor/cursor-image_00000.png"), auto; */
   cursor: url("Images/Cursor/CursorMain.png"), auto;
-  /* cursor: url("Images/Cursor/CursorEmoji.png"), auto; */
-
-  /* animation: flick_cursor 0.5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite; */
-}
-
-@keyframes flick_cursor {
-  0% {
-    opacity: 100%;
-  }
-  50% {
-    opacity: 50%;
-  }
-
-  100% {
-    opacity: 100%;
-  }
 }
