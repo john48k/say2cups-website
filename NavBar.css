@@ -130,9 +130,9 @@ nav ul li a {
 
 .Custom-Cursor {
   height: 100vh;
-  /* cursor: url("/Images/cursor-image_00000.png"), auto; */
-  cursor: url("Images/CursorMain.png"), auto;
-  /* cursor: url("Images/CursorEmoji.png"), auto; */
+  /* cursor: url("Images/Cursor/cursor-image_00000.png"), auto; */
+  cursor: url("Images/Cursor/CursorMain.png"), auto;
+  /* cursor: url("Images/Cursor/CursorEmoji.png"), auto; */
 
   /* animation: flick_cursor 0.5s;
   animation-timing-function: ease-in-out;
