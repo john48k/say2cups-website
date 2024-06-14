@@ -1,6 +1,5 @@
 @font-face {
   font-family: aboutFont;
-  /* src: url(Abel-Regular.ttf); */
   src: url(Fonts/Abel-Regular.ttf);
 }
 
@@ -10,7 +9,6 @@
 
 @font-face {
   font-family: say2cupsFont;
-  /* src: url("Rochester Twee.ttf"); */
   src: url("Fonts/Rochester Twee.ttf");
 }
 
