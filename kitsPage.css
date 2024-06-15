@@ -13,11 +13,6 @@
   src: url("/Fonts/alagard.ttf");
 }
 
-@font-face {
-  font-family: gothText;
-  src: url(/Fonts/OldLondon.ttf);
-}
-
 @keyframes gallery-text-flicker {
   0% {
     opacity: 1;
@@ -71,7 +66,7 @@
 
 .pText {
   /* font-family: aboutFont;
-  font-family: say2cupsFont; */
+    font-family: say2cupsFont; */
   font-family: bit1;
   color: rgb(93, 255, 91);
   font-size: 13px;

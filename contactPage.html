@@ -3,56 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact | Say2Cups ⌖</title>
+    <title>gallery | Say2Cups ⌖</title>
     <link rel="stylesheet" href="NavBar.css" />
-    <link rel="stylesheet" href="contactPage.css" />
     <link rel="stylesheet" href="text_Flicker.css" />
+    <link rel="stylesheet" href="socials.css" />
+    <link rel="stylesheet" href="contactPage.css">
     <link
       rel="shortcut icon"
-      href="Images/say2cups pfp.jpg"
+      href="Images/say2cups_profile_pic.jpg"
       type="image/x-icon"
     />
-
-    </style>
   </head>
   <body style="background-color: rgb(0, 0, 0)" class="Custom-Cursor">
     <div class="navclass">
       <header>
         <nav>
           <a
-            href="http://127.0.0.1:5500/HomePage.html"
-            class="font green-say2cups logo cursor link-remove green-point"
+            href="HomePage.html"
+            class="font green-say2cups logo cursor link-remove green-point text_flick"
+            >Say2Cups</a
           >
-            Say2Cups
-          </a>
           <ul>
             <li>
               <a
-                href="http://127.0.0.1:5500/HomePage.html"
-                class="green-point anger_font"
+                href="HomePage.html"
+                class="green-point text_flick"
                 >home</a
               >
             </li>
             <li>
-              <a href="http://127.0.0.1:5500/aboutPage.html" class="green-point"
-                >about</a
-              >
-            </li>
-            <li>
-              <a href="http://127.0.0.1:5500/beatsPage.html" class="green-point"
+              <a href="beatsPage.html" class="green-point text_flick"
                 >beats</a
               >
             </li>
             <li>
-              <a
-                href="http://127.0.0.1:5500/galleryPage.html"
-                class="green-point"
+              <a href="kitsPage.html" class="green-point text_flick"
+                >kits</a
+              >
+            </li>
+            <li>
+              <a href="galleryPage.html" class="green-point text_flick"
                 >gallery</a
               >
             </li>
             <ul class="menu">
               <li>
-                <a href="#" class="green-point">socials</a>
+                <a href="#" class="green-point text_flick">socials</a>
                 <ul class="dropdown">
                   <li>
                     <a href="https://instagram.com/say2cups/" target="_blank"
@@ -78,25 +74,29 @@
                   </li>
                 </ul>
             <li>
-              <a
-                href="http://127.0.0.1:5500/contactPage.html"
-                class="green text_flick"
+              <a href="contactPage.html" class="green text_flick"
                 >contact</a
               >
             </li>
           </ul>
         </nav>
+        <h1 id="headerText">Contact</h1>
+        <div class="gallery">
+          <div class="email"> 
+            <form action="https://formsubmit.co/your-email@example.com" method="POST" class="text-box-container">
+              <label for="email" class="label" id="pf2">Email * </label>
+              <input type="email" id="pf2" name="email" class="text-box"  placeholder="Your email address" required>
+              
+              <label for="message" class="label" id="pf3">Message</label>
+              <textarea id="message" name="message" class="text-box text_flick" placeholder="Write your message here..." required></textarea> 
+              <button type="submit" id="pf1" class="button">Send</button>
+            </form>
+            <div class="contact_image gallery">
+              <img  class="contact_image_size" src="Images/money3d.gif" alt="">
+            </div>
+        </div>
       </header>
     </div>
-    <div class="form">
-      <h1 class="contact-font" style="color: white">Contact Form</h1>
-      <form action="https://formsubmit.co/say2cups1@gmail.com" method="POST">
-        <input type="text" name="Name" placeholder="Full Name" required />
-        <input type="email" name="Email" placeholder="Email" required />
-        <textarea name="Message" placeholder="Message" required></textarea>
-        <button type="submit" class="button">Send</button>
-      </form>
-    </div>
-    <script src="/gallery.js"></script>
+    <main></main>
   </body>
 </html>
