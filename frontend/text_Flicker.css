@@ -1,0 +1,54 @@
+.text_flick {
+  animation: flick 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.text_flick_faster {
+  animation: flick_fast 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flick {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 89%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes flick_fast {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 92%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.text_photo {
+  animation-duration: 2s;
+  animation-name: photo;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photo {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 99%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

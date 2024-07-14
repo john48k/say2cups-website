@@ -1,0 +1,167 @@
+@font-face {
+  font-family: aboutFont;
+  src: url(Fonts/Abel-Regular.ttf);
+}
+
+@font-face {
+  font-family: bit1;
+  src: url("/Fonts/easvhs.ttf");
+}
+
+@font-face {
+  font-family: bit2;
+  src: url("/Fonts/alagard.ttf");
+}
+
+@font-face {
+  font-family: gothText;
+  src: url(/Fonts/OldLondon.ttf);
+}
+
+@keyframes gallery-text-flicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pf1 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 89%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes pf2 {
+  0% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 89%;
+  }
+  40% {
+    opacity: 68%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes pf3 {
+  0% {
+    opacity: 100%;
+  }
+  44% {
+    opacity: 86%;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+#pf1 {
+  animation: pf1 0.2s ease-in-out infinite;
+}
+
+#pf2 {
+  animation: pf1 0.2s ease-in-out infinite;
+}
+
+#pf3 {
+  animation: pf1 0.2s ease-in-out infinite;
+}
+
+#headerText {
+  text-align: center;
+  color: rgb(34, 255, 49);
+  font-family: bit2;
+  font-weight: 100;
+  animation: gallery-text-flicker 0.2s ease-in-out infinite;
+}
+
+.gallery {
+  display: grid;
+  gap: 10px; /* No space between videos */
+  padding: 0;
+  width: 520px; /* Set a specific width for the gallery */
+  margin: 0 auto; /* Center the gallery */
+}
+
+.gallery > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.label {
+  margin-bottom: 10px;
+  color: rgb(34, 255, 49);
+  font-family: bit1;
+  font-weight: 200;
+}
+
+.text-box {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #1eff00;
+  border-radius: 4px;
+  font-weight: 200;
+  font-family: bit1;
+  resize: none; /* Disables resizing */
+  margin-bottom: 10px;
+  background-color: #000000;
+  color: rgb(34, 255, 49);
+}
+
+.text-box::placeholder {
+  color: rgb(34, 255, 49);
+}
+
+.textarea {
+  height: 150px;
+  resize: vertical; /* Allows the user to resize the box vertically */
+}
+
+.button {
+  padding: 5px 10px;
+  color: rgb(34, 255, 49);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: bit1;
+  font-weight: 200;
+  border-color: #00ff3c;
+  background-color: #000000;
+}
+
+.button:hover {
+  background-color: #2fff00;
+  color: #000000;
+}
+
+.contact_image {
+}
+
+.contact_image_size {
+  margin-top: -120px; /* Moves the element up by 20px */
+  margin: center;
+  transform: (0.7);
+}
