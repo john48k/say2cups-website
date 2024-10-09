@@ -6,6 +6,7 @@
   <title>beats | Say2Cups ⌖</title>
   <link rel="stylesheet" href="StartupPage.css">
   <link rel="stylesheet" href="text_Flicker.css" />
+  <link rel="stylesheet" href="NavBar.css" />
   <link
     rel="shortcut icon"
     href="Images/say2cups pfp.jpg"
@@ -14,7 +15,7 @@
 </head>
     <title>StartupPage | Say2Cups ⌖</title>
 </head>
-<body>
+<body class="Custom-Cursor">
     <!-- <video id="bg-video" autoplay muted loop> -->
        <!-- <source src="video/StartupVideo.mp4" type="video/mp4"> -->
         <!-- <source src="<source src="video/StartupVideo.mp4" type="video/mp4">" type="video/mp4"> -->
@@ -25,7 +26,29 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
-        <h1><a href="/frontend/HomePage.html" id="no-link">PRESS ENTER</a></h1>
+    <audio id="click-sound" src="/frontend/Audio/Say2Cups_Tag_2.wav"></audio>
+
+        <h1 class="text_flick" ><a href="/frontend/HomePage.html" id="no-link">PRESS ENTER</a></h1>
+
+
+        <script>
+          // Get the audio element
+          const audio = document.getElementById('click-sound');
+  
+          // Get the link
+          const link = document.getElementById('no-link');
+  
+          // Add click event listener
+          link.addEventListener('click', function(event) {
+              event.preventDefault(); // Prevent the default anchor behavior
+              audio.play(); // Play the sound
+              
+              // Redirect after the sound has played (adjust time as needed)
+              audio.onended = function() {
+                  window.location.href = '/frontend/HomePage.html';
+              };
+          });
+      </script>        
  
 </body>
 </html>
