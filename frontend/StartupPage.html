@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body style="background-color: rgb(0, 0, 0)"></body>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="StartupPage.css" />
-    <title>StartupPage ⌖</title>
-  </head>
-  <body>
-    <div class="container animate-flicker">
-      <h1 class="enter green font flicker button" onclick="onEnterClick()">
-        Press Enter
-      </h1>
-    </div>
-    <script type="text/javascript">
-      const audio = new Audio();
-      audio.src = "./Plugg (EQ).wav";
-
-      function onEnterClick() {
-        audio.play();
-        setTimeout(() => {
-          location.href = "http://127.0.0.1:5500/frontend/HomePage.html";
-        }, 0);
-      }
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>beats | Say2Cups ⌖</title>
+  <link rel="stylesheet" href="StartupPage.css">
+  <link rel="stylesheet" href="text_Flicker.css" />
+  <link
+    rel="shortcut icon"
+    href="Images/say2cups pfp.jpg"
+    type="image/x-icon"
+  />
+</head>
+    <title>StartupPage | Say2Cups ⌖</title>
+</head>
+<body>
+    <!-- <video id="bg-video" autoplay muted loop> -->
+       <!-- <source src="video/StartupVideo.mp4" type="video/mp4"> -->
+        <!-- <source src="<source src="video/StartupVideo.mp4" type="video/mp4">" type="video/mp4"> -->
+    <!-- </video> -->
+    <iframe id="bg-video" width="560" height="315"
+    src="https://www.youtube.com/embed/mVp3YwTLHjQ?si=4kg-1T2XQPmYGtOE&mute=1&start=0&autoplay=1&controls=0&showinfo=0&modestbranding=1&rel=0"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        <h1><a href="/frontend/HomePage.html" id="no-link">PRESS ENTER</a></h1>
+ 
+</body>
 </html>
